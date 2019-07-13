@@ -8,11 +8,11 @@
 <body style="background-color: #282F7F">
     <div id="side_bar">
         <div>
-            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-properties@2x.png" class="side_img" /><br />
-            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-real-time@2x.png" class="side_img" /><br />
-            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-portfolio@2x.png" class="side_img" /><br />
-            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-potential@2x.png" class="side_img" /><br />
-            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-mortgage@2x.png" class="side_img" />
+            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-properties@2x.png" class="side_img side_img1" /><br />
+            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-real-time@2x.png" class="side_img side_img2" /><br />
+            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-portfolio@2x.png" class="side_img side_img3" /><br />
+            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-potential@2x.png" class="side_img side_img4" /><br />
+            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-mortgage@2x.png" class="side_img side_img5" />
         </div>
         <div id="side_bottom">
             <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-about@2x.png" class="side_img" /><br />

@@ -33,6 +33,7 @@
 #side_bar{
     height: 100%;
     position: relative;
+    float: left;
 }
 
 #side_bottom{
@@ -41,6 +42,10 @@
 }
 
 .side_img{
-    width: 96px;
-    height: 88px;
+    width: 108px;
+    height: 98px;
+}
+
+.side_img1:active{
+    background-image: url("../img/main container/mc-menu-properties-selected@2x.png")
 }
