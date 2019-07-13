@@ -15,7 +15,7 @@
             <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-mortgage@2x.png" class="side_img side_img5" />
         </div>
         <div id="side_bottom">
-            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-about@2x.png" class="side_img" /><br />
-            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-settings@2x.png" class="side_img" />
+            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-about@2x.png" class="side_img side_img6" /><br />
+            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-settings@2x.png" class="side_img side_img7" />
         </div>
     </div>
