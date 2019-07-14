@@ -86,6 +86,9 @@
 /*=====  My Properties  =====*/
 
 
+.content{
+}
+
 .left_content{
     width: 350px;
     height: 100%;
@@ -130,4 +133,30 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -60%);
+}
+
+.right_content{
+    width: 350px;
+    height: 100%;
+    color: #ffffff;
+    float: left;
+    position: relative;
+    background-color: blue;
+    margin-left: 10px;
+}
+
+.right_top{
+    position: relative;    
+    background-color: #333333;
+    height: 70px;
+}
+
+.right_top a{
+    font-size: 24px;
+    color: #777777;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 88%;
+    transform: translate(0%, -60%);
 }
