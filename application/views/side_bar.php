@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/style.css">
     <script type="text/javascript" src="<?php echo base_url()?>assets/js/script.js"></script>
 </head>
-<body style="background-color: #282F7F; padding: 10px 10px 10px 10px; margin: 0;" class="container-fluid">
+<body style="background-color: #282F7F; padding: 6px; margin: 0;" class="container-fluid">
     <div class="row" style="margin: 0; height: 100%;">
     <div id="side_bar">
         <div id="side_top">
