@@ -13,7 +13,9 @@
             <span class="top_title">New Properties</span>
             <a href="#" id="right_top_done">Done</a>
         </div>
-        <div class="right_main"></div>
+        <div class="right_main">
+            <input type="text" name="">
+        </div>
     </div>
     </div>
 </body>
