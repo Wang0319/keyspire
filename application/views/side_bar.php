@@ -5,9 +5,10 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/style.css">
     <script type="text/javascript" src="<?php echo base_url()?>assets/js/script.js"></script>
 </head>
-<body style="background-color: #282F7F">
+<body style="background-color: #282F7F; padding: 10px 10px 10px 10px; margin: 0;" class="container-fluid">
+    <div class="row" style="margin: 0; height: 100%;">
     <div id="side_bar">
-        <div>
+        <div id="side_top">
             <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-properties@2x.png" class="side_img side_img1" /><br />
             <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-real-time@2x.png" class="side_img side_img2" /><br />
             <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-portfolio@2x.png" class="side_img side_img3" /><br />
