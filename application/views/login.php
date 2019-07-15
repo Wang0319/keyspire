@@ -20,5 +20,4 @@
         <button type="submit" class="btn btn-primary btn-lg login_btn">Log In</button>
       </form>
     </div>
-    <!-- <div style="height: 100px; width: 100%;"></div> -->
 </body>

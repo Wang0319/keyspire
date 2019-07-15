@@ -106,12 +106,13 @@
 
 .top_title_container{
     background-color: #404040;
-    height: 55px;
+    height: 50px;
     position: relative;
     text-align: center;
 }
 
 .top_title{
+    color: white;
     position: absolute;
     font-size: 19px;
     font-weight: bold;
@@ -162,8 +163,45 @@
 }
 
 .right_content{
-    color: #ffffff;
+    color: black;
     background-color: #dddddd;
     padding: 0;
     border-bottom-right-radius: 5px;
 }
+
+.info_input_l, .info_input_R{
+    border-radius: 0 !important;
+    font-size: 18px !important;
+}
+
+.info_input_L{
+    border-right: 0;
+    background-color: white;
+}
+
+.info_input_R{
+    border-left: 0;
+    text-align: right;
+    color: #3c64a0;
+}
+
+.info_input_R:focus{
+    border-color: #ffffff;
+    box-shadow: none;
+    text-align: right;
+}
+
+.input_title{
+    width: 30%;
+    display: block;
+}
+
+.input_title:focus{
+    outline: none;
+}
+
+.note_area:focus{
+    border-color: #ffffff;
+    box-shadow: none;    
+}
+
