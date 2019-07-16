@@ -39,9 +39,15 @@
 
 #side_bar{
     height: 100%;
-    width: 7.8%;
+    width: 7.9%;
     padding: 0;
     position: relative;
+}
+
+@media screen and (min-width: 1700px){
+    #side_bar{
+        width: 7%;
+    }
 }
 
 #side_bottom{
@@ -53,7 +59,7 @@
 .side_img{
     width: 100%;
 }
-
+/*
 .side_img1:active{
     background-image: url("../img/main container/mc-menu-properties-selected@2x.png");
     background-size: 94.33px 84.11px;
@@ -88,7 +94,7 @@
     background-image: url("../img/main container/mc-menu-settings-selected@2x.png");
     background-size: 94.33px 84.11px;
 }
-
+*/
 
 /*=====  My Properties  =====*/
 
@@ -102,7 +108,13 @@
 .left_content{
     color: #ffffff;    
     background-color: #888888;
-    width: 31%;
+    width: 29%;
+}
+
+@media screen and (min-width: 1700px){
+    .left_content{
+        width: 25%;
+    }
 }
 
 .top_title_container{
@@ -175,7 +187,38 @@
 
 .info_input_L, .info_input_R{
     border-radius: 0 !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
+}
+
+@media screen and (min-width: 1300px) {
+    .info_input_L, .info_input_R{
+    border-radius: 0 !important;
+    font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .info_input_L, .info_input_R{
+    border-radius: 0 !important;
+    font-size: 21px !important;
+    }
+}
+
+.calcu_btn{
+    margin-top: 50px;
+    border-radius: 0;
+}
+
+@media screen and (min-width: 1300px){
+    .calcu_btn{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .calcu_btn{
+        font-size: 22px;
+    }
 }
 
 .info_input_L{
@@ -210,7 +253,7 @@
 }
 
 .select_title{
-    width: 63%
+    width: 60%
 }
 
 .right_main{
@@ -218,8 +261,14 @@
 }
 
 #schedule_table{
-    font-size: 16px;
+    font-size: 11px;
     text-align: center;
+}
+
+@media screen and (min-width: 1000px){
+    #schedule_table{
+        font-size: 16px;
+    }
 }
 
 #schedule_table th{

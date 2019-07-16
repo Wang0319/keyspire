@@ -34,7 +34,7 @@
                             </div>
                             <select type="text" class="form-control info_input_R" style="padding: 4px 0;">
                                 <option value="canada">Monthly</option>
-                                <option value="usa">Bi-Weekly</option>
+                                <option value="usa">Bi-weekly</option>
                                 <option value="usa">Weekly</option>
                             </select>
                             </div>
@@ -67,16 +67,16 @@
                             <div class="input-group-prepend input_title select_title">
                                 <span class="input-group-text info_input_L" style="border-bottom-left-radius: 10px !important;">Maturity Date(derived)</span>
                             </div>
-                            <select type="text" class="form-control info_input_R" style="border-bottom-right-radius: 10px !important;"></select>
+                            <input type="text" readonly class="form-control info_input_R" style="border-bottom-right-radius: 10px !important; background-color: white;" />
                             </div>
                         </div>
                         <div class="input-group input-group-sm" style="margin-top: 50px">
                             <div class="input-group-prepend input_title select_title">
                                 <span class="input-group-text info_input_L" style="border-top-left-radius: 10px !important; border-bottom-left-radius: 10px !important;">Payment Amount(derived)</span>
                             </div>
-                            <input type="text" readonly class="form-control info_input_R" style="background: white; padding: 4px 0; border-top-right-radius: 10px !important; border-bottom-right-radius: 10px !important;" />
+                            <input type="text" readonly class="form-control info_input_R" style="background-color: white; padding: 4px 0; border-top-right-radius: 10px !important; border-bottom-right-radius: 10px !important;" />
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block" style="margin-top: 50px; border-radius: 0;">Calculate</button>
+                        <button type="submit" class="btn btn-primary btn-block calcu_btn">Calculate</button>
                     </form>
                 </div>                
             </div>

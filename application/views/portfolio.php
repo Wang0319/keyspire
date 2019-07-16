@@ -1,3 +1,4 @@
+
     <div class="left_content content">
         <div class="top_title_container">
             <span class="top_title">My Properties</span>
@@ -10,7 +11,7 @@
     </div>
     <div class="right_content col content">
         <div class="top_title_container">
-            <span class="top_title">New Property</span>
+            <span class="top_title">New Properties</span>
             <a href="#" id="right_top_done">Done</a>
         </div>
         <div class="right_main">

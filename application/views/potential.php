@@ -1,6 +1,6 @@
     <div class="left_content content">
         <div class="top_title_container">
-            <span class="top_title">My Properties</span>
+            <span class="top_title">Potential Properties</span>
             <a href="#" id="left_top_plus">+</a>
         </div>
         <div class="left_mid">
@@ -10,8 +10,8 @@
     </div>
     <div class="right_content col content">
         <div class="top_title_container">
-            <span class="top_title">New Property</span>
-            <a href="#" id="right_top_done">Done</a>
+            <span class="top_title">New Potential Property</span>
+            <a href="#" id="right_top_done">Next</a>
         </div>
         <div class="right_main">
             <div class="container" style="padding: 0 20px 0 20px; margin-top: 30px;">
