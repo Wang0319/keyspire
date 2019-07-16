@@ -1,8 +1,7 @@
 
     <div class="left_content content">
         <div class="top_title_container">
-            <span class="top_title">My Properties</span>
-            <a href="#" id="left_top_plus">+</a>
+            <span class="top_title">Real-time Cash Flow</span>
         </div>
         <div class="left_mid">
             <p class="left_mid_space_title">You do not currently have any properties.</p>
@@ -11,8 +10,6 @@
     </div>
     <div class="right_content col content">
         <div class="top_title_container">
-            <span class="top_title">New Properties</span>
-            <a href="#" id="right_top_done">Done</a>
         </div>
         <div class="right_main">
             <div class="container" style="padding: 0 20px 0 20px; margin-top: 30px;">
