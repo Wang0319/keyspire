@@ -6,14 +6,14 @@
     <script type="text/javascript" src="<?php echo base_url()?>assets/js/script.js"></script>
 </head>
 <body style="background-color: #282F7F; padding: 6px; margin: 0;" class="container-fluid">
-    <div class="row" style="margin: 0; height: 100%;">
+<div class="row" style="margin: 0; height: 100%;">
     <div id="side_bar">
         <div id="side_top">
-            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-properties@2x.png" class="side_img side_img1" /><br />
+            <a href="<?php echo base_url('');?>index.php/home"><img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-properties@2x.png" class="side_img side_img1" /></a><br />
             <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-real-time@2x.png" class="side_img side_img2" /><br />
             <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-portfolio@2x.png" class="side_img side_img3" /><br />
             <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-potential@2x.png" class="side_img side_img4" /><br />
-            <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-mortgage@2x.png" class="side_img side_img5" />
+            <a href="<?php echo base_url('');?>index.php/calculator"><img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-mortgage@2x.png" class="side_img side_img5" /></a>
         </div>
         <div id="side_bottom">
             <img src="<?php echo base_url();?>assets/img/Main Container/mc-menu-about@2x.png" class="side_img side_img6" /><br />

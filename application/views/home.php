@@ -22,55 +22,55 @@
                             <div class="input-group-prepend input_title">
                                 <span class="input-group-text info_input_L" style="border-top-left-radius: 10px !important;">Address*</span>
                             </div>
-                            <input type="text" class="form-control info_input_R" style="border-top-right-radius: 10px !important;">
+                            <input type="text" class="form-control info_input_R" style="border-top-right-radius: 10px !important;" />
                         </div>
                         <div class="input-group input-group-sm">
                             <div class="input-group-prepend input_title">
                                 <span class="input-group-text info_input_L">City</span>
                             </div>
-                            <input type="text" class="form-control info_input_R">
+                            <input type="text" class="form-control info_input_R" />
                         </div>
                         <div class="input-group input-group-sm">
                             <div class="input-group-prepend input_title">
                                 <span class="input-group-text info_input_L">Province/State</span>
                             </div>
-                            <input type="text" class="form-control info_input_R">
+                            <input type="text" class="form-control info_input_R" />
                         </div>
                         <div class="input-group input-group-sm">
                             <div class="input-group-prepend input_title">
                                 <span class="input-group-text info_input_L">Postal/Zip Code</span>
                             </div>
-                            <input type="text" class="form-control info_input_R">
+                            <input type="text" class="form-control info_input_R" />
                         </div>
                         <div class="input-group input-group-sm">
                             <div class="input-group-prepend input_title">
                                 <span class="input-group-text info_input_L">Bedrooms</span>
                             </div>
-                            <input type="text" class="form-control info_input_R">
+                            <input type="text" class="form-control info_input_R" />
                         </div>
                         <div class="input-group input-group-sm">
                             <div class="input-group-prepend input_title">
                                 <span class="input-group-text info_input_L">Bathrooms</span>
                             </div>
-                            <input type="text" class="form-control info_input_R">
+                            <input type="text" class="form-control info_input_R" />
                         </div>
                         <div class="input-group input-group-sm">
                             <div class="input-group-prepend input_title">
                                 <span class="input-group-text info_input_L">Square Feet</span>
                             </div>
-                            <input type="text" class="form-control info_input_R">
+                            <input type="text" class="form-control info_input_R" />
                         </div>
                         <div class="input-group input-group-sm">
                             <div class="input-group-prepend input_title">
                                 <span class="input-group-text info_input_L">Year Built</span>
                             </div>
-                            <input type="text" class="form-control info_input_R">
+                            <input type="text" class="form-control info_input_R" />
                         </div>
                         <div class="input-group input-group-sm">
                             <div class="input-group-prepend input_title">
                                 <span class="input-group-text info_input_L" style="border-bottom-left-radius: 10px !important;">Parking</span>
                             </div>
-                            <input type="text" class="form-control info_input_R" style="border-bottom-right-radius: 10px !important;">
+                            <input type="text" class="form-control info_input_R" style="border-bottom-right-radius: 10px !important;" />
                         </div>
                     </form>
                 </div>
