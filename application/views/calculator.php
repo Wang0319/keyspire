@@ -91,14 +91,14 @@
             <table class="table table-striped" id="schedule_table">
                 <thead>
                     <tr>
-                        <th>Pmt<br />No.</th>
-                        <th>Payment<br />Date</th>
-                        <th>Beginning<br />Balance</th>
+                        <th>Pmt No.</th>
+                        <th>Payment Date</th>
+                        <th>Beginning Balance</th>
                         <th>Payment</th>
                         <th>Principal</th>
                         <th>Interest</th>
-                        <th>Cumulative<br />Principal</th>
-                        <th>Cumulative<br />Interest</th>
+                        <th>Cumulative Principal</th>
+                        <th>Cumulative Interest</th>
                     </tr>
                 </thead>
                 <tbody>

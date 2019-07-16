@@ -213,8 +213,12 @@
     width: 63%
 }
 
+.right_main{
+    width: 100%;
+}
+
 #schedule_table{
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -222,9 +226,8 @@
     background: url("../img/form/form-headbar@2x.png");
     background-size: 100% 100%;
     color: white;
-    padding-left: 0;
-    padding-right: 0;
-
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 #schedule_table tr:hover{
