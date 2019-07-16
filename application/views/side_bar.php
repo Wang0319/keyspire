@@ -12,7 +12,7 @@
 <div class="row" style="margin: 0; height: 100%;">
     <div id="side_bar">
         <div id="side_top">
-            <a href="#" id="home_icon"><img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-properties@2x.png" class="side_img" /></a><br />
+            <a href="<?php echo base_url('');?>index.php/home" id="home_icon"><img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-properties@2x.png" class="side_img" /></a><br />
             <a href="<?php echo base_url('');?>index.php/cash" id="cash_icon"><img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-real-time@2x.png" class="side_img" /></a><br />
             <a href="<?php echo base_url('');?>index.php/portfolio" id="portfolio_icon"><img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-portfolio@2x.png" class="side_img" /></a><br />
             <a href="<?php echo base_url('');?>index.php/potential" id="potential_icon"><img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-potential@2x.png" class="side_img" /></a><br />
