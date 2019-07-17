@@ -12,72 +12,25 @@
         <div class="top_title_container">
         </div>
         <div class="right_main">
-            <div class="container" style="padding: 0 20px 0 20px; margin-top: 30px;">
-                <div class="container" style="padding: 0;">
-                    <label for="comment">Property Information</label>
-                    <form>
-                        <div class="input-group input-group-sm">
-                            <div class="input-group-prepend input_title">
-                                <span class="input-group-text info_input_L" style="border-top-left-radius: 10px !important;">Address*</span>
-                            </div>
-                            <input type="text" class="form-control info_input_R" style="border-top-right-radius: 10px !important;" />
-                        </div>
-                        <div class="input-group input-group-sm">
-                            <div class="input-group-prepend input_title">
-                                <span class="input-group-text info_input_L">City</span>
-                            </div>
-                            <input type="text" class="form-control info_input_R" />
-                        </div>
-                        <div class="input-group input-group-sm">
-                            <div class="input-group-prepend input_title">
-                                <span class="input-group-text info_input_L">Province/State</span>
-                            </div>
-                            <input type="text" class="form-control info_input_R" />
-                        </div>
-                        <div class="input-group input-group-sm">
-                            <div class="input-group-prepend input_title">
-                                <span class="input-group-text info_input_L">Postal/Zip Code</span>
-                            </div>
-                            <input type="text" class="form-control info_input_R" />
-                        </div>
-                        <div class="input-group input-group-sm">
-                            <div class="input-group-prepend input_title">
-                                <span class="input-group-text info_input_L">Bedrooms</span>
-                            </div>
-                            <input type="text" class="form-control info_input_R" />
-                        </div>
-                        <div class="input-group input-group-sm">
-                            <div class="input-group-prepend input_title">
-                                <span class="input-group-text info_input_L">Bathrooms</span>
-                            </div>
-                            <input type="text" class="form-control info_input_R" />
-                        </div>
-                        <div class="input-group input-group-sm">
-                            <div class="input-group-prepend input_title">
-                                <span class="input-group-text info_input_L">Square Feet</span>
-                            </div>
-                            <input type="text" class="form-control info_input_R" />
-                        </div>
-                        <div class="input-group input-group-sm">
-                            <div class="input-group-prepend input_title">
-                                <span class="input-group-text info_input_L">Year Built</span>
-                            </div>
-                            <input type="text" class="form-control info_input_R" />
-                        </div>
-                        <div class="input-group input-group-sm">
-                            <div class="input-group-prepend input_title">
-                                <span class="input-group-text info_input_L" style="border-bottom-left-radius: 10px !important;">Parking</span>
-                            </div>
-                            <input type="text" class="form-control info_input_R" style="border-bottom-right-radius: 10px !important;" />
-                        </div>
-                    </form>
+            <div class="container-fluid mt-3" style="padding: 0 10px;">
+                <div class="shadow-sm cash_date_bar" style="padding: 0;">
+					<a href="#home">Home</a>
+					<a href="#news">News</a>
+					<a href="#contact">Contact</a>
+					<a href="#about">About</a>
+					<a href="#support">Support</a>
+					<a href="#blog">Blog</a>
+					<a href="#tools">Tools</a>  
+					<a href="#base">Base</a>
+					<a href="#custom">Custom</a>
+					<a href="#more">More</a>
+					<a href="#logo">Logo</a>
+					<a href="#friends">Friends</a>
+					<a href="#partners">Partners</a>
+					<a href="#people">People</a>
+					<a href="#work">Work</a>
                 </div>
-                <form>
-                    <div class="form-group">
-                        <label for="comment">Notes</label>
-                        <textarea class="form-control note_area" rows="5" id="comment" name="text" style="border-radius: 10px;"></textarea>
-                    </div>
-                </form>
+                
             </div>
         </div>
     </div>
