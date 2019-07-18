@@ -261,6 +261,7 @@ a{
 
 .right_main{
     width: 100%;
+
 }
 
 #schedule_table{
@@ -337,4 +338,8 @@ a{
 
 .btn_radio i{
     margin-top: 5px;
+}
+
+#tr_portfolio th{
+    vertical-align: middle;
 }

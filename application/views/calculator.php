@@ -111,7 +111,6 @@
                         <td>erg</td>
                         <td>erg</td>
                         <td>erg</td>
-
                     </tr>
                     <tr>
                         <td>erg</td>
@@ -122,7 +121,6 @@
                         <td>erg</td>
                         <td>erg</td>
                         <td>erg</td>
-                        
                     </tr>
                     <tr>
                         <td>erg</td>
@@ -133,7 +131,6 @@
                         <td>erg</td>
                         <td>erg</td>
                         <td>erg</td>
-                        
                     </tr>
                     <tr>
                         <td></td>
