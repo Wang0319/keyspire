@@ -88,9 +88,9 @@
             <span class="top_title">Amortization Schedule</span>
         </div>
         <div class="right_main">
-            <table class="table table-striped" id="schedule_table">
+            <table class="table table-striped schedule_table">
                 <thead>
-                    <tr style="background: url('../assets/img/form/form-headbar@2x.png'); background-size: 100% 100%;">
+                    <tr style="background: url('../assets/img/form/form-headbar@2x.png'); background-size: 100% 100%;" class="tr_align_middle">
                         <th>Pmt No.</th>
                         <th>Payment Date</th>
                         <th>Beginning Balance</th>

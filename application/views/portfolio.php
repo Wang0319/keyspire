@@ -25,56 +25,370 @@
             <span class="top_title">Portfolio Summary</span>
         </div>
         <!-- ===portfolio summary=== -->
-        <div class="right_main" style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -60%); display: none;">
+        <div class="right_main" style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -60%); display: block;">
             <div class="container" style="padding: 0 20px 0 20px; margin-top: 30px;">
                 <div id="chartContainer" style="height: 60%; width: 100%;"></div>
                 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
             </div>
         </div>
         <!-- ===info=== -->
-        <div class="right_main" style="display: block;">
+        <div class="right_main" style="display: none;">
             <div class="container mt-3" style="padding: 0 20px;">
-                <table class="table table-striped" id="schedule_table">
-                <thead>
-                    <tr id="tr_portfolio" style="background: url('../assets/img/form/form-headbar@2x.png'); background-size: 100% 100%;">
-                        <th>Property</th>
-                        <th>Gross Operating Income</th>
-                        <th>Total Operating Express</th>
-                        <th>Net Operating Income</th>
-                        <th>Principal and Interest Payment</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>erg</td>
-                        <td>erg</td>
-                        <td>erg</td>
-                        <td>erg</td>
-                        <td>erg</td>
-                    </tr>
-                    <tr>
-                        <td>erg</td>
-                        <td>erg</td>
-                        <td>erg</td>
-                        <td>erg</td>
-                        <td>erg</td>
-                    </tr>
-                    <tr>
-                        <td>erg</td>
-                        <td>erg</td>
-                        <td>erg</td>
-                        <td>erg</td>
-                        <td>erg</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>Gross Operating Income</th>
+                            <th>Total Operating Express</th>
+                            <th>Net Operating Income</th>
+                            <th>Principal and Interest Payment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
+        <!-- ===return=== -->
+        <div class="right_main" style="display: none;">
+            <div class="container mt-3" style="padding: 0 20px;">
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>Cash Flow</th>
+                            <th>Net Crash Flow</th>
+                            <th>Principal Recapture</th>
+                            <th>Appreciation</th>
+                            <th>Total Property Return</th>
+                            <th>Ner Property Return</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ===property  performance=== -->
+        <div class="right_main" style="display: none;">
+            <div class="container mt-3" style="padding: 0 20px;">
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>CF</th>
+                            <th>OER</th>
+                            <th>EQ</th>
+                            <th>ROE</th>
+                            <th>LTV</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ===equity position=== -->
+        <div class="right_main" style="display: none;">
+            <div class="container mt-3" style="padding: 0 20px;">
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>EMV</th>
+                            <th>Debt</th>
+                            <th>Equity</th>
+                            <th>%<br />Ownership</th>
+                            <th>Net Equity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ===mortage info=== -->
+        <div class="right_main" style="display: none;">
+            <div class="container mt-3" style="padding: 0 20px;">
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>Mortage #</th>
+                            <th>Title Holder</th>
+                            <th>Lender</th>
+                            <th>Phone</th>
+                            <th>Rate</th>
+                            <th>Maturity</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ===projections=== -->
+        <div class="right_main" style="display: none;">
+            <div class="container mt-3" style="padding: 0 20px;">
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>Mortage #</th>
+                            <th>Title Holder</th>
+                            <th>Lender</th>
+                            <th>Phone</th>
+                            <th>Rate</th>
+                            <th>Maturity</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ===real-time performance=== -->
+        <!-- ===info=== -->
+        <div class="right_main" style="display: none;">
+            <div class="container mt-3" style="padding: 0 20px;">
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>Gross Operating Income</th>
+                            <th>Total Operating Express</th>
+                            <th>Net Operating Income</th>
+                            <th>Principal and Interest Payment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ===return=== -->
+        <div class="right_main" style="display: none;">
+            <div class="container mt-3" style="padding: 0 20px;">
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>Cash Flow</th>
+                            <th>Net Crash Flow</th>
+                            <th>Principal Recapture</th>
+                            <th>Appreciation</th>
+                            <th>Total Property Return</th>
+                            <th>Ner Property Return</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ===property  performance=== -->
+        <div class="right_main" style="display: none;">
+            <div class="container mt-3" style="padding: 0 20px;">
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>CF</th>
+                            <th>OER</th>
+                            <th>EQ</th>
+                            <th>ROE</th>
+                            <th>LTV</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ===equity position=== -->
+        <div class="right_main" style="display: none;">
+            <div class="container mt-3" style="padding: 0 20px;">
+                <table class="table table-striped schedule_table portfolio_table">
+                    <thead>
+                        <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png');     background-size: 100% 100%;">
+                            <th>Property</th>
+                            <th>EMV</th>
+                            <th>Debt</th>
+                            <th>Equity</th>
+                            <th>%<br />Ownership</th>
+                            <th>Net Equity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                            <td>erg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- ===income tax report=== -->
     </div>
-    </div>
+</div>
     <script>
         window.onload = function () {         
         var chart = new CanvasJS.Chart("chartContainer", {

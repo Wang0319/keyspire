@@ -264,24 +264,28 @@ a{
 
 }
 
-#schedule_table{
+.schedule_table{
     font-size: 11px;
     text-align: center;
 }
 
+.tr_align_middle th{
+    vertical-align: middle !important;
+}
+
 @media screen and (min-width: 1000px){
-    #schedule_table{
+    .schedule_table{
         font-size: 16px;
     }
 }
 
-#schedule_table th{
+.schedule_table th{
     color: white;
     padding-left: 3px;
     padding-right: 3px;
 }
 
-#schedule_table tr:hover{
+.schedule_table tr:hover{
     background-color: #ccc;
 }
 
@@ -299,11 +303,19 @@ a{
     white-space: nowrap;
     font-weight: bold;
     position: relative;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1100px){
+    .cash_date_bar{
+        font-size: 18px;
+        height: 51px;
+    }
 }
 
 .cash_date_bar a{
     text-align: center;
-    padding: 10px 5px;
+    padding: 12px 5px;
     display: inline-block;
 }
 
@@ -340,6 +352,6 @@ a{
     margin-top: 5px;
 }
 
-#tr_portfolio th{
-    vertical-align: middle;
+.portfolio_table{
+    border-collapse: separate !important;
 }

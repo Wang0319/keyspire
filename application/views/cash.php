@@ -26,19 +26,19 @@
                             <option value="audi">2013</option>
                         </select>
                     </form>
-                    <div style="width: 100%">
-                    <a href="#home">JAN</a>
-                    <a href="#news">FEB</a>
-                    <a href="#contact">MAR</a>
-                    <a href="#about">APR</a>
-                    <a href="#support">MAY</a>
-                    <a href="#blog">JUN</a>
-                    <a href="#tools">JUL</a>  
-                    <a href="#base">AUG</a>
-                    <a href="#custom">SEP</a>
-                    <a href="#more">OCT</a>
-                    <a href="#logo">NOV</a>
-                    <a href="#friends">DEC</a>
+                    <div style="width: 100%;">
+                        <a href="#home">JAN</a>
+                        <a href="#news">FEB</a>
+                        <a href="#contact">MAR</a>
+                        <a href="#about">APR</a>
+                        <a href="#support">MAY</a>
+                        <a href="#blog">JUN</a>
+                        <a href="#tools">JUL</a>  
+                        <a href="#base">AUG</a>
+                        <a href="#custom">SEP</a>
+                        <a href="#more">OCT</a>
+                        <a href="#logo">NOV</a>
+                        <a href="#friends">DEC</a>
                     </div>
                 </div>                
             </div>
@@ -77,5 +77,5 @@
             </div>
         </div>
     </div>
-    </div>
+</div>
 </body>
