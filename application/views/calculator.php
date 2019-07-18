@@ -90,7 +90,7 @@
         <div class="right_main">
             <table class="table table-striped" id="schedule_table">
                 <thead>
-                    <tr>
+                    <tr style="background: url('../assets/img/form/form-headbar@2x.png'); background-size: 100% 100%;">
                         <th>Pmt No.</th>
                         <th>Payment Date</th>
                         <th>Beginning Balance</th>
