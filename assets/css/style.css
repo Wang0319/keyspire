@@ -224,6 +224,7 @@ a{
 }
 
 .info_input_L{
+    overflow: hidden;
     border-right: 0;
     background-color: white;
 }
@@ -292,15 +293,34 @@ a{
 .cash_date_bar{
     width: 100%;
     background-color: white;
-    height: 50px;
+    height: 45px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     overflow: auto;
     white-space: nowrap;
+    font-weight: bold;
+    position: relative;
 }
 
 .cash_date_bar a{
-    display: inline-block;
     text-align: center;
-    padding: 5px;
+    padding: 10px 5px;
+    display: inline-block;
+}
+
+.cash_date_bar a:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+.cash_year_select{
+    float: left;
+    padding: 10px 5px;
+    margin: 0;
+}
+
+.cash_nav{
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
 }
