@@ -1,4 +1,4 @@
-    <div class="left_content content">
+    <div class="left_content content" id="potential_l" style="display: block;">
         <div class="top_title_container">
             <span class="top_title">Potential Properties</span>
             <a href="#" id="left_top_plus">+</a>
@@ -8,7 +8,7 @@
         </div>
         <img src="<?php echo base_url()?>assets/img/common-bottom-logo-panel@2x.png" id="logo" />        
     </div>
-    <div class="right_content col content">
+    <div class="right_content col content" id="potential_r" style="display: block;">
         <div class="top_title_container">
             <span class="top_title">New Potential Property</span>
             <a href="#" id="right_top_done">Next</a>
@@ -83,5 +83,5 @@
             </div>
         </div>
     </div>
-    </div>
-</body>
+<!-- </div>
+</body> -->

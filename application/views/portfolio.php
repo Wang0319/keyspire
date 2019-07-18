@@ -1,5 +1,4 @@
-
-    <div class="left_content content">
+    <div class="left_content content" id="portfolio_l" style="display: block;">
         <div class="top_title_container">
             <span class="top_title">My Portfolio</span>
         </div>
@@ -20,7 +19,7 @@
         </div>
         <img src="<?php echo base_url()?>assets/img/common-bottom-logo-panel@2x.png" id="logo" />        
     </div>
-    <div class="right_content col content">
+    <div class="right_content col content" id="portfolio_r" style="display: block;">
         <div class="top_title_container">
             <span class="top_title">Portfolio Summary</span>
         </div>
@@ -28,7 +27,6 @@
         <div class="right_main" style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -60%); display: block;">
             <div class="container" style="padding: 0 20px 0 20px; margin-top: 30px;">
                 <div id="chartContainer" style="height: 60%; width: 100%;"></div>
-                <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
             </div>
         </div>
         <!-- ===info=== -->
@@ -388,7 +386,7 @@
         </div>
         <!-- ===income tax report=== -->
     </div>
-</div>
+<!-- </div> -->
     <script>
         window.onload = function () {         
         var chart = new CanvasJS.Chart("chartContainer", {
@@ -406,4 +404,4 @@
         chart.render();         
         }
     </script>
-</body>
+<!-- </body> -->

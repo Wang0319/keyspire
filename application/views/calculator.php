@@ -1,4 +1,4 @@
-    <div class="left_content content">
+    <div class="left_content content" id="calculator_l" style="display: block;">
         <div class="top_title_container">
             <span class="top_title">Mortgage Calculator</span>
         </div>
@@ -83,7 +83,7 @@
         </div>
         <img src="<?php echo base_url()?>assets/img/common-bottom-logo-panel@2x.png" id="logo" />        
     </div>
-    <div class="right_content col content">
+    <div class="right_content col content" id="calculator_r" style="display: block;">
         <div class="top_title_container">
             <span class="top_title">Amortization Schedule</span>
         </div>
@@ -139,5 +139,5 @@
             </table>
         </div>
     </div>
-</div>
-</body>
+<!-- </div>
+</body> -->

@@ -1,5 +1,4 @@
-
-    <div class="left_content content">
+    <div class="left_content content" id="cash_l" style="display: block;">
         <div class="top_title_container">
             <span class="top_title">Real-time Cash Flow</span>
         </div>
@@ -8,7 +7,7 @@
         </div>
         <img src="<?php echo base_url()?>assets/img/common-bottom-logo-panel@2x.png" id="logo" />        
     </div>
-    <div class="right_content col content">
+    <div class="right_content col content" id="cash_r" style="display: block;">
         <div class="top_title_container">
         </div>
         <div class="right_main">
@@ -77,5 +76,5 @@
             </div>
         </div>
     </div>
-</div>
-</body>
+<!-- </div>
+</body> -->
