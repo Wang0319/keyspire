@@ -52,7 +52,7 @@
                     </li>
                     <li class="nav-item col-sm-4 col-md-4 col-lg-4 cash_nav">
                         <a class="nav-link" data-toggle="tab" href="#menu2">Expenses</a>
-                  </li>
+                    </li>
                 </ul>
                 
                 <!-- Tab panes -->

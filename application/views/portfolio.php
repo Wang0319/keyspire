@@ -24,7 +24,7 @@
             <span class="top_title">Portfolio Summary</span>
         </div>
         <!-- ===portfolio summary=== -->
-        <div class="right_main" style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -60%); display: block;">
+        <div class="right_main" style="position: relative; top: 50%; left: 50%; transform: translate(-50%, -60%); display: none;">
             <div class="container" style="padding: 0 20px 0 20px; margin-top: 30px;">
                 <div id="chartContainer" style="height: 60%; width: 100%;"></div>
             </div>
@@ -385,7 +385,114 @@
             </div>
         </div>
         <!-- ===income tax report=== -->
-    </div>
+        <ul class="nav nav-tabs cash_nav mt-4">
+            <li class="nav-item col-sm-3 col-md-3 col-lg-3 cash_nav">
+                <a class="nav-link active" data-toggle="tab" href="#home">Summary</a>
+            </li>
+            <li class="nav-item col-sm-3 col-md-3 col-lg-3 cash_nav">
+                <a class="nav-link" data-toggle="tab" href="#menu1">Expenses</a>
+            </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="home" class="container tab-pane active"><br>
+                <span style="margin-left: 20px;">From :</span>
+                <input type="date" name="date" style="margin-left: 10px; width: 120px; height: 28px; font-size: 15px;" placeholder="mm/dd/yyyy" />
+                <span style="margin-left: 20px;">To :</span>
+                <input type="date" name="date" style="margin-left: 10px; height: 28px; width: 120px; font-size: 15px;" placeholder="mm/dd/yyyy" />
+                <a href="#" style="margin-left: 30px;">Update</a>
+                <div class="container mt-5" style="padding: 0 20px;">
+                    <table class="table table-striped schedule_table portfolio_table">
+                        <thead>
+                            <tr class="tr_align_middle" style="background: url('../assets/img/form/form-headbar@2x.png'); background-size: 100% 100%;">
+                                <th>Property</th>
+                                <th>Income</th>
+                                <th>Expenses</th>
+                                <th>Taxable</th>
+                                <th>%<br />Ownership</th>
+                                <th>Net Equity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>erg</td>
+                                <td>erg</td>
+                                <td>erg</td>
+                                <td>erg</td>
+                                <td>erg</td>
+                                <td>erg</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="menu1" class="container tab-pane fade"><br>
+                <span style="margin-left: 20px;">From :</span>
+                <input type="date" name="date" style="margin-left: 10px; width: 150px; height: 28px; font-size: 15px;" placeholder="mm/dd/yyyy" />
+                <span style="margin-left: 20px;">To :</span>
+                <input type="date" name="date" style="margin-left: 10px; height: 28px; width: 150px; font-size: 15px;" placeholder="mm/dd/yyyy" />
+                <a href="#" style="margin-left: 30px;">Update</a>
+                <table class="table schedule_table portfolio_table" style="text-align: left;">
+                    <thead>
+                        <tr style="background: url('../assets/img/form/form-headbar@2x.png'); background-size: 100% 100%;">
+                            <th>Expense</th>                        
+                            <th>Expense</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>First Mortgage-Interest</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Second Mortgage</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Simple Interest</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Electricity</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Heating</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Insurance</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Property Tax</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Repair & Maintenance</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Property Management</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Tenant Gifts</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Cleaning</td>                        
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>                        
+                            <td>Expense</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</div>
     <script type="text/javascript">
         $(document).ready(function(){            
             $("#portfolio_icon img").attr("src", "../assets/img/main_container/mc-menu-portfolio-selected@2x.png");})
