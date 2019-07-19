@@ -83,5 +83,9 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $(document).ready(function(){            
+            $("#home_icon img").attr("src", "../assets/img/main_container/mc-menu-properties-selected@2x.png");})
+    </script>
 <!-- </div>
 </body> -->

@@ -386,6 +386,10 @@
         </div>
         <!-- ===income tax report=== -->
     </div>
+    <script type="text/javascript">
+        $(document).ready(function(){            
+            $("#portfolio_icon img").attr("src", "../assets/img/main_container/mc-menu-portfolio-selected@2x.png");})
+    </script>
 <!-- </div> -->
     <script>
         window.onload = function () {         

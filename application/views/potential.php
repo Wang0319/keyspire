@@ -83,5 +83,9 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $(document).ready(function(){            
+            $("#potential_icon img").attr("src", "../assets/img/main_container/mc-menu-potential-selected@2x.png");})
+    </script>
 <!-- </div>
 </body> -->

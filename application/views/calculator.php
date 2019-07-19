@@ -139,5 +139,9 @@
             </table>
         </div>
     </div>
+    <script type="text/javascript">
+        $(document).ready(function(){            
+            $("#calculator_icon img").attr("src", "../assets/img/main_container/mc-menu-mortgage-selected@2x.png");})
+    </script>
 <!-- </div>
 </body> -->

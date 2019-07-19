@@ -76,5 +76,9 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $(document).ready(function(){            
+            $("#cash_icon img").attr("src", "../assets/img/main_container/mc-menu-real-time-selected@2x.png");})
+    </script>
 <!-- </div>
 </body> -->
