@@ -20,7 +20,7 @@
             <a href="<?php echo base_url();?>index.php/calculator" id="calculator_icon"><img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-mortgage@2x.png" class="side_img" /></a>
         </div>
         <div id="side_bottom">
-            <img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-about@2x.png" class="side_img" /><br />
-            <img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-settings@2x.png" class="side_img" />
+            <a href="<?php echo base_url();?>index.php/about" id="about_icon"><img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-about@2x.png" class="side_img" /></a><br />
+            <a href="<?php echo base_url();?>index.php/settings" id="settings_icon"><img src="<?php echo base_url();?>assets/img/Main_Container/mc-menu-settings@2x.png" class="side_img" /></a>
         </div>
     </div>

@@ -199,15 +199,7 @@ a{
 
 @media screen and (min-width: 1300px) {
     .info_input_L, .info_input_R{
-    border-radius: 0 !important;
     font-size: 18px !important;
-    }
-}
-
-@media screen and (min-width: 1700px) {
-    .info_input_L, .info_input_R{
-    border-radius: 0 !important;
-    font-size: 21px !important;
     }
 }
 
@@ -219,12 +211,6 @@ a{
 @media screen and (min-width: 1300px){
     .calcu_btn{
         font-size: 18px;
-    }
-}
-
-@media screen and (min-width: 1600px){
-    .calcu_btn{
-        font-size: 22px;
     }
 }
 
@@ -272,6 +258,7 @@ a{
 .schedule_table{
     font-size: 11px;
     text-align: center;
+    padding: 0.6rem;
 }
 
 .tr_align_middle th{
@@ -279,6 +266,12 @@ a{
 }
 
 @media screen and (min-width: 1000px){
+    .schedule_table{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1300px){
     .schedule_table{
         font-size: 16px;
     }
@@ -352,6 +345,20 @@ a{
     border-bottom-color: #888888;
     text-align: left;
     font-size: 17px;
+    border-color: #808080;
+    background-color: white;
+    color: black;
+}
+
+.btn_radio:hover{
+    background-color: #404040 !important;
+    border-color: #404040 !important;
+}
+
+.btn_radio-active{
+    background-color: #404040 !important;
+    border-color: #404040 !important;
+    color: white;
 }
 
 .btn_radio i{
@@ -360,4 +367,21 @@ a{
 
 .portfolio_table{
     border-collapse: separate !important;
+}
+
+
+/*=====  settings  =====*/
+
+
+.btn_logout{
+    background-color: red !important;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 180px;
+}
+
+.btn_logout:hover{
+    background-color: red !important;
+    border-color: red !important;
 }
