@@ -6,8 +6,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/style.css">
     <script src="<?php echo base_url()?>assets/js/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url()?>assets/js/script.js"></script>    
+    <script src="<?php echo base_url()?>assets/js/canvasjs.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>assets/js/script.js"></script>
 </head>
 <body style="background-color: #282F7F; padding: 6px; margin: 0;" class="container-fluid">
 <div class="row" style="margin: 0; height: 100%;">

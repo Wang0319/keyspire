@@ -25,8 +25,35 @@
         </div>
         <!-- ===portfolio summary=== -->
         <div id="my_portfolio1_detail" class="right_main" style="display: block;">
-            <div class="container" style="padding: 0 20px 0 20px; margin-top: 150px;">
-                <div id="chartContainer" style="height: 60%; width: 100%;"></div>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+            
+                <!-- Indicators -->
+                <ul class="carousel-indicators" style="bottom: -40px;">
+                    <li data-target="#demo" data-slide-to="0" class="active" style="background-color: black !important;"></li>
+                    <li data-target="#demo" data-slide-to="1" style="background-color: black !important;"></li>
+                    <li data-target="#demo" data-slide-to="2" style="background-color: black !important;"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner" style="margin-top: 150px;">
+                    <div class="carousel-item active">
+                        <div id="chartContainer" style="height: 60%; width: 100%;"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="chartContainer1" style="height: 60%; width: 100%;"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="chartContainer2" style="height: 60%; width: 100%;"></div>
+                    </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
         </div>
         <!-- ===info=== -->
@@ -539,7 +566,7 @@
         var chart = new CanvasJS.Chart("chartContainer", {
             animationEnabled: true,
             exportEnabled: true,
-            theme: "dark2", // "light1", "light2", "dark1", "dark2"
+            theme: "light1", // "light1", "light2", "dark1", "dark2"
             title:{
                 text: "Total Accumulated Return"
             },
@@ -549,6 +576,38 @@
             }]
         });
         chart.render();
+
+        var chart1 = new CanvasJS.Chart("chartContainer1", {
+            animationEnabled: true,
+            exportEnabled: true,
+            height: document.getElementById('my_portfolio1_detail').clientHeight,
+            width: document.getElementById('my_portfolio1_detail').clientWidth,
+            theme: "light1", // "light1", "light2", "dark1", "dark2"
+            title:{
+                text: "Total Accumulated Return1"
+            },
+            data: [{
+                type: "column", //change type to bar, line, area, pie, etc  
+                dataPoints: [{x:10,y:30},{x:20,y:60},{x:30,y:70},{x:40,y:50}]
+            }]
+        });
+        chart1.render();
+
+        var chart2 = new CanvasJS.Chart("chartContainer2", {
+            animationEnabled: true,
+            exportEnabled: true,
+            height: document.getElementById('demo').clientHeight,
+            width: document.getElementById('demo').clientWidth,
+            theme: "light1", // "light1", "light2", "dark1", "dark2"
+            title:{
+                text: "Total Accumulated Return2"
+            },
+            data: [{
+                type: "column", //change type to bar, line, area, pie, etc  
+                dataPoints: [{x:10,y:30},{x:20,y:60},{x:30,y:70},{x:40,y:50},{x:50,y:84},{x:60,y:68},{x:30,y:70}]
+            }]
+        });
+        chart2.render();
         }
     </script>
 <!-- </body> -->
