@@ -27,7 +27,6 @@
         <div id="my_portfolio1_detail" class="right_main" style="display: block;">
             <div class="container" style="padding: 0 20px 0 20px; margin-top: 150px;">
                 <div id="chartContainer" style="height: 60%; width: 100%;"></div>
-                <div id="chartContainer" style="height: 60%; width: 100%;"></div>
             </div>
         </div>
         <!-- ===info=== -->
@@ -536,7 +535,7 @@
     </script>
 <!-- </div> -->
     <script>
-        window.onload = function () {         
+        window.onload = function () {
         var chart = new CanvasJS.Chart("chartContainer", {
             animationEnabled: true,
             exportEnabled: true,
@@ -549,7 +548,7 @@
                 dataPoints: [{x:10,y:30},{x:20,y:60},{x:30,y:70},{x:40,y:50},{x:50,y:84},{x:60,y:68}]
             }]
         });
-        chart.render();         
+        chart.render();
         }
     </script>
 <!-- </body> -->
